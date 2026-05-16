@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>心动小镇攻略站 | Heartopia Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">🏡 心动小镇攻略</a>
+      <ul class="nav-links">
+        <li><a href="#beginner">新手指南</a></li>
+        <li><a href="#hobbies">爱好攻略</a></li>
+        <li><a href="#guides">热门攻略</a></li>
+        <li><a href="#codes">礼包码</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- 英雄区 -->
+  <header class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">✨ 心动小镇 · Heartopia</span>
+      <h1>心动小镇<br/><span>全攻略指南</span></h1>
+      <p>新手入坑 · 爱好升级 · 资源收集 · 礼包码兑换<br/>让你在海滨小镇的生活更加丰富多彩！</p>
+      <div class="hero-btns">
+        <a href="#beginner" class="btn btn-primary">🌟 新手入门</a>
+        <a href="#hobbies" class="btn btn-secondary">🎯 爱好攻略</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-emoji-grid">
+        <span>🎣</span><span>🌱</span><span>🍳</span>
+        <span>🦋</span><span>🐦</span><span>🐶</span>
+        <span>🏠</span><span>⭐</span><span>🌊</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- 快速导航卡片 -->
+  <section class="quick-nav">
+    <div class="container">
+      <div class="quick-cards">
+        <a href="#beginner" class="quick-card">
+          <span class="qc-icon">📖</span>
+          <span class="qc-label">新手指南</span>
+        </a>
+        <a href="#hobbies" class="quick-card">
+          <span class="qc-icon">🎭</span>
+          <span class="qc-label">爱好系统</span>
+        </a>
+        <a href="#fishing" class="quick-card">
+          <span class="qc-icon">🎣</span>
+          <span class="qc-label">钓鱼攻略</span>
+        </a>
+        <a href="#cooking" class="quick-card">
+          <span class="qc-icon">🍳</span>
+          <span class="qc-label">烹饪食谱</span>
+        </a>
+        <a href="#gardening" class="quick-card">
+          <span class="qc-icon">🌱</span>
+          <span class="qc-label">园艺种植</span>
+        </a>
+        <a href="#codes" class="quick-card">
+          <span class="qc-icon">🎁</span>
+          <span class="qc-label">礼包码</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 新手指南 -->
+  <section id="beginner" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>📖 新手指南</h2>
+        <p>从零开始，打造属于你的心动小镇生活</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-num">01</div>
+          <div class="tip-content">
+            <h3>🌱 先从园艺开始</h3>
+            <p>园艺是游戏第一个爱好，也是整个经济体系的基础。跟随导师 Blanc 学习种植，收获的作物可用于烹饪和出售赚取金币。</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">02</div>
+          <div class="tip-content">
+            <h3>📋 每日完成任务</h3>
+            <p>坚持每天完成日常任务（浇水5次、钓3条鱼、跟邻居打招呼），可获得金币、爱好升级券和活动积分，积分可开启每日宝箱。</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">03</div>
+          <div class="tip-content">
+            <h3>💰 高效赚金攻略</h3>
+            <p>钓鱼 + 烹饪组合是最佳赚金手段。将钓到的鱼烹饪成菜肴后出售，价值翻倍。同时积累园艺收获用于料理食材。</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">04</div>
+          <div class="tip-content">
+            <h3>🏠 优先升级房屋</h3>
+            <p>扩展房屋空间可以放置更多家具和设施，提升生活品质和功能。每次升级都会解锁新的建造和装饰选项。</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">05</div>
+          <div class="tip-content">
+            <h3>👥 多交朋友互动</h3>
+            <p>与镇上49位NPC角色互动、送礼可提升好感度，解锁专属剧情和奖励。与其他玩家一起钓鱼、做饭可加速进度。</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">06</div>
+          <div class="tip-content">
+            <h3>🎯 爱好联动最大化</h3>
+            <p>7大爱好相互联动：钓鱼→烹饪、园艺→烹饪、捕虫→收集奖励。优先升级相互配合的爱好，效率翻倍！</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 爱好系统 -->
+  <section id="hobbies" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>🎭 七大爱好系统</h2>
+        <p>爱好是心动小镇的核心玩法，各爱好相互联动，共同构建你的小镇生活</p>
+      </div>
+      <div class="hobby-grid">
+
+        <div class="hobby-card" id="fishing">
+          <div class="hobby-header" style="background: linear-gradient(135deg,#4fc3f7,#0288d1)">
+            <span class="hobby-icon">🎣</span>
+            <h3>钓鱼</h3>
+            <span class="hobby-tag">Fishing</span>
+          </div>
+          <div class="hobby-body">
+            <p class="hobby-desc">在全镇14处钓鱼地点探索98种鱼类。从普通小鱼到传说级午夜锦鲤，技巧和耐心缺一不可。</p>
+            <div class="hobby-stats">
+              <span>🐟 98种鱼类</span>
+              <span>📍 14个钓点</span>
+              <span>💰 稳定收入</span>
+            </div>
+            <div class="hobby-tips">
+              <h4>📌 核心技巧</h4>
+              <ul>
+                <li>不同时间段、天气会出现不同鱼种</li>
+                <li>升级钓竿可解锁稀有鱼类区域</li>
+                <li>钓到的鱼可直接出售或用于烹饪</li>
+                <li>传说级鱼类在特定地点限时出现</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobby-card" id="gardening">
+          <div class="hobby-header" style="background: linear-gradient(135deg,#a5d6a7,#388e3c)">
+            <span class="hobby-icon">🌱</span>
+            <h3>园艺</h3>
+            <span class="hobby-tag">Gardening</span>
+          </div>
+          <div class="hobby-body">
+            <p class="hobby-desc">游戏第一爱好，整个经济体系的基石。种植各类蔬菜水果，为烹饪提供食材，也是最稳定的金币来源。</p>
+            <div class="hobby-stats">
+              <span>🥕 多种作物</span>
+              <span>📅 季节限定</span>
+              <span>🍴 食材来源</span>
+            </div>
+            <div class="hobby-tips">
+              <h4>📌 核心技巧</h4>
+              <ul>
+                <li>跟随导师 Blanc 完成基础教学任务</li>
+                <li>定时浇水可加速作物生长</li>
+                <li>升级农具可同时照料更多作物</li>
+                <li>季节性作物稀缺，高价值优先种</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobby-card" id="cooking">
+          <div class="hobby-header" style="background: linear-gradient(135deg,#ffcc80,#f57c00)">
+            <span class="hobby-icon">🍳</span>
+            <h3>烹饪</h3>
+            <span class="hobby-tag">Cooking</span>
+          </div>
+          <div class="hobby-body">
+            <p class="hobby-desc">利用钓到的鱼和种植的蔬菜制作98道精美菜肴。烹饪出的食物售价远高于原材料，是进阶赚金利器。</p>
+            <div class="hobby-stats">
+              <span>🍽️ 98道食谱</span>
+              <span>💎 高售价</span>
+              <span>🔗 联动钓鱼/园艺</span>
+            </div>
+            <div class="hobby-tips">
+              <h4>📌 核心技巧</h4>
+              <ul>
+                <li>先解锁更多食谱再批量烹饪</li>
+                <li>稀有食材菜肴售价翻倍</li>
+                <li>烹饪等级提升解锁新菜谱</li>
+                <li>可为NPC制作喜爱的菜肴提升好感</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-header" style="background: linear-gradient(135deg,#ce93d8,#7b1fa2)">
+            <span class="hobby-icon">🦋</span>
+            <h3>捕虫</h3>
+            <span class="hobby-tag">Bug Catching</span>
+          </div>
+          <div class="hobby-body">
+            <p class="hobby-desc">全镇探索76种昆虫，完成收集图鉴获得升级材料和成就奖励。不同季节、时间段有不同昆虫出没。</p>
+            <div class="hobby-stats">
+              <span>🦗 76种昆虫</span>
+              <span>🌙 时间限定</span>
+              <span>🎖️ 收集奖励</span>
+            </div>
+            <div class="hobby-tips">
+              <h4>📌 核心技巧</h4>
+              <ul>
+                <li>夜间和雨天有特殊昆虫出现</li>
+                <li>完成收集分类可获得升级材料</li>
+                <li>轻声靠近虫子避免惊跑</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-header" style="background: linear-gradient(135deg,#80cbc4,#00695c)">
+            <span class="hobby-icon">🐦</span>
+            <h3>观鸟</h3>
+            <span class="hobby-tag">Birdwatching</span>
+          </div>
+          <div class="hobby-body">
+            <p class="hobby-desc">记录小镇68种鸟类，使用望远镜在各处静静观察。完成观鸟图鉴解锁专属装饰和称号。</p>
+            <div class="hobby-stats">
+              <span>🦜 68种鸟类</span>
+              <span>🔭 望远镜工具</span>
+              <span>🏆 专属称号</span>
+            </div>
+            <div class="hobby-tips">
+              <h4>📌 核心技巧</h4>
+              <ul>
+                <li>清晨是鸟类活动最活跃的时段</li>
+                <li>不同地貌区域有不同鸟类分布</li>
+                <li>升级望远镜可发现更远处的鸟</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-header" style="background: linear-gradient(135deg,#f48fb1,#c2185b)">
+            <span class="hobby-icon">🐶</span>
+            <h3>养宠</h3>
+            <span class="hobby-tag">Pet Keeping</span>
+          </div>
+          <div class="hobby-body">
+            <p class="hobby-desc">领养可爱宠物陪伴小镇生活，日常喂食互动提升亲密度，解锁宠物专属动作和家居装饰。</p>
+            <div class="hobby-stats">
+              <span>🐾 多种宠物</span>
+              <span>❤️ 亲密度系统</span>
+              <span>🎀 专属装饰</span>
+            </div>
+            <div class="hobby-tips">
+              <h4>📌 核心技巧</h4>
+              <ul>
+                <li>每日定时喂食保持宠物心情</li>
+                <li>带宠物外出散步提升亲密度更快</li>
+                <li>满亲密度宠物会赠送特殊礼物</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-header" style="background: linear-gradient(135deg,#ffe082,#f9a825)">
+            <span class="hobby-icon">🏠</span>
+            <h3>建造装饰</h3>
+            <span class="hobby-tag">Building</span>
+          </div>
+          <div class="hobby-body">
+            <p class="hobby-desc">自由设计房屋内外装饰，从家具摆放到庭院布局，打造完全属于你的梦想小窝，还可以和朋友互访参观。</p>
+            <div class="hobby-stats">
+              <span>🛋️ 海量家具</span>
+              <span>🎨 自由布局</span>
+              <span>👀 好友参观</span>
+            </div>
+            <div class="hobby-tips">
+              <h4>📌 核心技巧</h4>
+              <ul>
+                <li>先规划整体风格再购买家具</li>
+                <li>参加限时活动获取专属装饰</li>
+                <li>好友参观可互换家具灵感</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门攻略文章 -->
+  <section id="guides" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>🔥 热门攻略</h2>
+        <p>玩家最常搜索的实用攻略合集</p>
+      </div>
+      <div class="guides-grid">
+        <div class="guide-card hot">
+          <div class="guide-badge">🔥 热门</div>
+          <div class="guide-icon">💰</div>
+          <h3>高效赚金攻略</h3>
+          <p>钓鱼+烹饪组合是最高效的金币获取方式。钓稀有鱼 → 烹饪高级菜肴 → 出售，日收益可达普通方式3倍以上。</p>
+          <div class="guide-tags"><span>💰 金币</span><span>🎣 钓鱼</span><span>🍳 烹饪</span></div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-icon">⚡</div>
+          <h3>爱好快速升级</h3>
+          <p>每日任务 + 完成收集图鉴 + 使用"爱好升级券"是最快的升级路径。优先升级钓鱼和园艺这两个核心爱好。</p>
+          <div class="guide-tags"><span>⚡ 效率</span><span>🎯 升级</span></div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-icon">🗓️</div>
+          <h3>每日必做清单</h3>
+          <p>① 领取每日任务 ② 浇水/喂宠物 ③ 完成3个日常任务 ④ 领取每日宝箱 ⑤ 和邻居打招呼提升好感度</p>
+          <div class="guide-tags"><span>🗓️ 日常</span><span>📦 宝箱</span></div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-icon">🐟</div>
+          <h3>稀有鱼类地图</h3>
+          <p>全镇14个钓点各有特色鱼种。传说鱼「午夜锦鲤」在北岸深水区凌晨出现；「彩虹鳟」在山涧瀑布旁限时刷新。</p>
+          <div class="guide-tags"><span>🎣 钓鱼</span><span>🗺️ 地图</span></div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-icon">🎁</div>
+          <h3>NPC好感度攻略</h3>
+          <p>49位NPC各有喜爱礼物，查询对应角色的喜好表，每天送礼可快速提升好感，解锁专属剧情和稀有奖励。</p>
+          <div class="guide-tags"><span>👥 NPC</span><span>💝 好感</span></div>
+        </div>
+        <div class="guide-card">
+          <div class="guide-icon">🏡</div>
+          <h3>房屋升级优先级</h3>
+          <p>推荐升级顺序：厨房设施 > 仓库扩容 > 庭院空间 > 客厅装饰。厨房和仓库直接影响赚金效率，优先级最高。</p>
+          <div class="guide-tags"><span>🏠 建造</span><span>📈 规划</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 礼包码 -->
+  <section id="codes" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>🎁 兑换码</h2>
+        <p>输入礼包码获取限定道具和金币奖励（定期更新）</p>
+      </div>
+      <div class="codes-wrapper">
+        <div class="codes-list">
+          <div class="code-item active">
+            <div class="code-info">
+              <span class="code-status">✅ 有效</span>
+              <code class="code-text">HEARTOPIA2026</code>
+              <span class="code-reward">🎁 金币 ×500 + 装饰家具 ×1</span>
+            </div>
+            <button class="copy-btn" onclick="copyCode('HEARTOPIA2026')">复制</button>
+          </div>
+          <div class="code-item active">
+            <div class="code-info">
+              <span class="code-status">✅ 有效</span>
+              <code class="code-text">TOWN888</code>
+              <span class="code-reward">🎁 爱好升级券 ×3</span>
+            </div>
+            <button class="copy-btn" onclick="copyCode('TOWN888')">复制</button>
+          </div>
+          <div class="code-item active">
+            <div class="code-info">
+              <span class="code-status">✅ 有效</span>
+              <code class="code-text">XDGAMES2024</code>
+              <span class="code-reward">🎁 新手礼包（金币 ×200 + 种子包 ×5）</span>
+            </div>
+            <button class="copy-btn" onclick="copyCode('XDGAMES2024')">复制</button>
+          </div>
+          <div class="code-item expired">
+            <div class="code-info">
+              <span class="code-status">❌ 已过期</span>
+              <code class="code-text">LAUNCH777</code>
+              <span class="code-reward">🎁 限定装扮</span>
+            </div>
+            <button class="copy-btn" disabled>已过期</button>
+          </div>
+        </div>
+        <div class="codes-hint">
+          <div class="hint-card">
+            <h4>📍 如何兑换？</h4>
+            <ol>
+              <li>打开游戏，进入<strong>「设置」</strong></li>
+              <li>点击<strong>「礼包码」</strong>选项</li>
+              <li>输入兑换码并确认</li>
+              <li>奖励将自动发送到邮箱</li>
+            </ol>
+            <p class="hint-note">⚠️ 兑换码区分大小写，每个账号限用一次</p>
+          </div>
+        </div>
+      </div>
+      <div class="codes-toast" id="toast">✅ 已复制到剪贴板！</div>
+    </div>
+  </section>
+
+  <!-- 数据速查 -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>📊 游戏数据速查</h2>
+        <p>心动小镇核心内容数量一览</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">🐟</div>
+          <div class="stat-num">98</div>
+          <div class="stat-label">种鱼类</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🍽️</div>
+          <div class="stat-num">98</div>
+          <div class="stat-label">道菜谱</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🦜</div>
+          <div class="stat-num">68</div>
+          <div class="stat-label">种鸟类</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🦋</div>
+          <div class="stat-num">76</div>
+          <div class="stat-label">种昆虫</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">👥</div>
+          <div class="stat-num">49</div>
+          <div class="stat-label">位NPC角色</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">📍</div>
+          <div class="stat-num">14</div>
+          <div class="stat-label">处钓鱼地点</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">🎭</div>
+          <div class="stat-num">7</div>
+          <div class="stat-label">大爱好系统</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">📅</div>
+          <div class="stat-num">2024</div>
+          <div class="stat-label">年7月上线</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo">🏡 心动小镇攻略</span>
+          <p>由玩家社区整理，持续更新中<br/>非官方网站 · 内容仅供参考</p>
+        </div>
+        <div class="footer-links">
+          <h4>快捷导航</h4>
+          <ul>
+            <li><a href="#beginner">新手指南</a></li>
+            <li><a href="#hobbies">爱好攻略</a></li>
+            <li><a href="#guides">热门攻略</a></li>
+            <li><a href="#codes">礼包码</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>爱好系统</h4>
+          <ul>
+            <li><a href="#fishing">🎣 钓鱼</a></li>
+            <li><a href="#gardening">🌱 园艺</a></li>
+            <li><a href="#cooking">🍳 烹饪</a></li>
+            <li><a href="#hobbies">更多爱好 →</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 心动小镇攻略站 · 非官方玩家社区 · 游戏版权归 XD Entertainment Co., Ltd. 所有</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
