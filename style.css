@@ -195,6 +195,7 @@ body {
 
 .search-btn,
 .theme-btn,
+.lang-btn,
 .nav-toggle {
   background: none;
   border: none;
@@ -211,7 +212,18 @@ body {
 }
 
 .search-btn:hover,
-.theme-btn:hover {
+.theme-btn:hover,
+.lang-btn:hover {
+  background: var(--pink-light);
+}
+
+.lang-btn {
+  width: auto;
+  padding: 0 12px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
   background: var(--pink-light);
 }
 
