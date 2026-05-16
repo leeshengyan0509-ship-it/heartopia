@@ -66,4 +66,16 @@
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
+  <url>
+    <loc>https://heartopiatips.com/about.html</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://heartopiatips.com/privacy.html</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>
