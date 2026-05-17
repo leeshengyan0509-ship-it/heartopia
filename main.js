@@ -70,13 +70,16 @@ document.addEventListener('DOMContentLoaded', () => {
 const announcement = document.getElementById('announcement');
 const annClose = document.getElementById('annClose');
 
-if (localStorage.getItem('annClosed') === '1') {
+// 当公告内容更新时，更新这个版本号让所有用户重新看到
+const ANNOUNCEMENT_VERSION = 'v2-may-codes';
+
+if (localStorage.getItem('annClosedVersion') === ANNOUNCEMENT_VERSION) {
   announcement?.classList.add('hidden');
 }
 
 annClose?.addEventListener('click', () => {
   announcement?.classList.add('hidden');
-  localStorage.setItem('annClosed', '1');
+  localStorage.setItem('annClosedVersion', ANNOUNCEMENT_VERSION);
 });
 
 /* ====================================================
