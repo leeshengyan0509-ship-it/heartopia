@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e91e8c"/>
+      <stop offset="50%" stop-color="#ff6b9d"/>
+      <stop offset="100%" stop-color="#ffb347"/>
+    </linearGradient>
+  </defs>
+  <!-- 圆角粉色渐变背景 -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- 白色爱心 -->
+  <path d="M32 50 C 32 50, 14 40, 14 26 C 14 19, 20 14, 26 14 C 29 14, 31 16, 32 18 C 33 16, 35 14, 38 14 C 44 14, 50 19, 50 26 C 50 40, 32 50, 32 50 Z" fill="white"/>
+  <!-- 爱心内的小房子 -->
+  <path d="M32 24 L 26 30 L 26 36 L 30 36 L 30 32 L 34 32 L 34 36 L 38 36 L 38 30 Z" fill="#e91e8c"/>
+</svg>

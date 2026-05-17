@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 页面未找到 | 心动小镇攻略站</title>
+  <meta name="description" content="抱歉，您访问的页面不存在。返回心动小镇攻略站首页查看更多攻略内容。" />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/style.css?v=2" />
+  <style>
+    .err-page {
+      min-height: calc(100vh - 64px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+      background: linear-gradient(135deg, #fff0f9 0%, #fce4f0 40%, #f0e8ff 100%);
+    }
+    [data-theme="dark"] .err-page {
+      background: linear-gradient(135deg, #2a1830 0%, #361b30 40%, #251a35 100%);
+    }
+    .err-emoji { font-size: 5rem; margin-bottom: 16px; animation: bounce 2s ease infinite; }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+    .err-page h1 {
+      font-size: clamp(2.4rem, 5vw, 4rem);
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--pink-dark), var(--rose), var(--peach));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+    }
+    .err-page h2 {
+      font-size: 1.4rem;
+      color: var(--text-dark);
+      margin-bottom: 16px;
+    }
+    .err-page p {
+      color: var(--text-mid);
+      margin-bottom: 28px;
+      max-width: 480px;
+      line-height: 1.8;
+    }
+    .err-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="/" class="logo">🏡 心动小镇攻略</a>
+      <ul class="nav-links">
+        <li><a href="/#beginner">新手</a></li>
+        <li><a href="/#hobbies">爱好</a></li>
+        <li><a href="/#fish-dex">鱼类</a></li>
+        <li><a href="/#npc">NPC</a></li>
+        <li><a href="/#codes">礼包码</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="err-page">
+    <div class="err-emoji">🏝️</div>
+    <h1>404</h1>
+    <h2>哎呀，这里没有内容！</h2>
+    <p>你要找的页面可能已经搬到别的小镇去了，或者从来就不存在。<br/>不过别担心，让我们带你回到心动小镇～</p>
+    <div class="err-btns">
+      <a href="/" class="btn btn-primary">🏡 返回首页</a>
+      <a href="/#codes" class="btn btn-secondary">🎁 查看礼包码</a>
+    </div>
+  </main>
+
+</body>
+</html>
