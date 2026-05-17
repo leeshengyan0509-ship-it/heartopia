@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# 禁止爬虫访问不存在的常见路径，减少 404 错误
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /admin/
+Disallow: /.env
+Disallow: /xmlrpc.php
+
 Sitemap: https://heartopiatips.com/sitemap.xml
